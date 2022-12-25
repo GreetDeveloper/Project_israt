@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,500;1,100;1,200;1,400;1,500&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 body {
@@ -46,14 +45,16 @@ body {
 }
 
 .wrapper {
-  width: 100%;
+  width: 90%;
   padding: 15px;
+  align-items: center;
   margin: 4rem;
   border-radius: 1.5rem;
 }
 
 .ai {
-  background: #032220d3;
+  background: #2b2f63d3;
+  border: 1px solid rgba(83, 96, 199, 0.448);
 }
 
 .chat {
@@ -71,7 +72,7 @@ body {
   width: 36px;
   height: 36px;
   border-radius: 5px;
-
+  border: 2rem red;
   background: #5436DA;
 
   display: flex;
@@ -112,11 +113,12 @@ body {
 
 form {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 10px;
-  background: #40414F;
-
+  background: #234065;
+  margin-bottom: 4rem;
+  border-radius: 5rem;
   display: flex;
   flex-direction: row;
   gap: 10px;

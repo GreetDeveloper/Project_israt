@@ -1,6 +1,7 @@
 import './style.css';
 import israt_icon from './icons/bot.svg';
 import user from './icons/user.svg';
+import Typed from 'react-typed'
 
 const form = document.querySelector('form');
 const chatcontainer = document.querySelector('#chat_container');
