@@ -9,8 +9,6 @@
   --white: #fff;
 }
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -156,7 +154,7 @@ form img {
 
 /*footer*/
 .footer {
-  background: var(--main-color);
+  background: #35447a59;
   align-items: center;
   margin: 0.4rem;
   padding: 1.5rem;
@@ -167,7 +165,7 @@ form img {
 .footer .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .footer .box-container .box h3 {
@@ -220,8 +218,6 @@ form img {
 
 .footer .created {
   text-align: center;
-  margin-top: 2rem;
-  padding-top: 2rem;
   font-size: 2rem;
   text-transform: capitalize;
   color: var(--white);
@@ -250,9 +246,6 @@ form img {
   padding: 0.5rem;
   border-radius: 4px;
 }
-
-
-
 /* Responsive on 991px Devices*/
 
 @media (max-width: 900px) {
@@ -262,12 +255,10 @@ form img {
 
   .wrapper {
     width: 90%;
-    margin: 2rem;
     padding: 1.5rem;
   }
   .footer{
-    margin: 3rem;
-    padding: 3rem;
+    padding: 1rem;
     border-radius: 2rem;
   }
 }
