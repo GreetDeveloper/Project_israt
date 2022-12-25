@@ -1,20 +1,47 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="icons/title.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> ISRAT Project</title>
-  </head>
-  <body>
-    <div id="app">
-      <div id="chat_container"></div>
-      <!-- chat form -->
-      <form>
-        <textarea name="prompt" rows="1" cols="1" placeholder="Ask Israt......" ></textarea>
-        <button type="submit"> <img src="icons/send.svg"></button>
-      </form>
-    </div>
-    <script type="module" src="/index.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="icons/title.png" />
+  <!-- fonticons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> ISRAT Project</title>
+</head>
+
+<body>
+  <div id="app">
+    <div id="chat_container"></div>
+    <!-- chat form -->
+    <form>
+      <textarea name="prompt" rows="1" cols="1" placeholder="Ask Israt......"></textarea>
+      <button type="submit"> <img src="icons/send.svg"></button>
+    </form>
+
+
+    <!-- footer section-->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Social media </h3>
+          <p>Sie finden mich unter folgende links</p>
+          <div class="socials">
+            <a href="https://twitter.com/function_a12" class="fab fa-twitter" target="_blank"></a>
+            <a href="https://instagram.com/takedown_65" class="fab fa-instagram" target="_blank"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Contact me</h3>
+          <a href="#" class="link">bahadoriborz@mail.com</a>
+        </div>
+      </div>
+      <div class="created"> Developer | <span>
+          <a href="https://a12-development.tk"> GreetDeveloper</a></span> | </div>
+    </section>
+  </div>
+  <script type="module" src="/index.js"></script>
+</body>
+
 </html>
